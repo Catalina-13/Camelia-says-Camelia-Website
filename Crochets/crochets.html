@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="crochets.css">
+    <link rel="stylesheet" href="styles/mainstyle.css">
+    <link rel="stylesheet" href="styles/buttonstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="crochets.js" defer></script>
+    <title> Crochets </title>
+</head>
+
+<body>
+	
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<nav>
+  <a class="links" href="../homepage/index.html">Camelia says Camelia</a>
+  <div class="dropdown">
+    <button class="megaButton">Jewelry</button>
+    <div class="megaContent">
+    <a style="display: block; width: 100%;" href="../Jewelry/jewelry.html">
+      <div class="megaHeader">
+      <img src="jewelry menu.jpeg" alt="Luxurious blue jewelry" style="width:100%;">
+      <div class="centered">Explore all our collections</div>
+      </div>
+      </a>
+      <div class="megaRow">
+        <div class="subMenuImage">
+          <a href="../bracelets/bracelets.html"><img src="braceletsubmenu.jpeg" alt="rose gold bracelet" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Bracelets</div>
+          </div>
+        </div>
+        <div class="subMenuImage">
+          <a href="../Necklaces/necklaces.html"><img src="necklacesubmenu.jpeg" alt="swarovski necklace" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Necklaces</div>
+          </div>
+        </div>
+        <div class="subMenuImage">
+          <a href="../Rings/rings.html"><img src="ringsubmenu.jpeg" alt="swarovski ring" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Rings</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="megaButton">Homeware</button>
+    <div class="megaContent">
+      <a style="display: block; width: 100%;" href="../Homeware/homeware.html">
+      <div class="megaHeader">
+        <img src="homeware menu.jpeg" alt="Primark homeware picks for SS18" style="width:100%;">
+        <div class="centered">Explore all our collections</div>
+      </div>
+      </a>
+      <div class="megaRow">
+        <div class="subMenuImage">
+        <a href="../Candles/candles.html">
+          <img src="candlesubmenu.jpeg" alt="Candle" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Candles</div>
+          </div>
+        </div>
+        <div class="subMenuImage">
+        <a href="../Clay Trays/claytray.html">
+          <img src="claytraysubmenu.jpeg" alt="Clay tray" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Clay trays</div>
+          </div>
+        </div>
+        <div class="subMenuImage"><a href="../Crochets/crochets.html">
+          <img src="crochetsubmenu.jpeg" alt="Crochet" class="image">
+          <div class="menuMiddle">
+            <div class="description">Crochets</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="megaButton">Lookbook</button>
+    <div class="megaContent">
+      <a style="display: block; width: 100%;" href="../Lookbook/lookbook.html">
+      <div class="megaHeader">
+      <img src="lookbook menu.jpeg" alt="Fashion lookbook" style="width:100%;">
+      <div class="centered">Explore all our collections</div>
+      </div>
+      </a>
+      <div class="megaRow">
+        <div class="subMenuImage">
+        <a href="../coming/comingsoon.html">
+          <img src="springsubmenu.jpg" alt="Spring" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Spring</div>
+          </div>
+        </div>
+        <div class="subMenuImage">
+        <a href="../coming/comingsoon.html">
+          <img src="summersubmenu.jpeg" alt="Summer" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Summer</div>
+          </div>
+        </div>
+        <div class="subMenuImage">
+        <a href="../Lookbook/lookbook.html">
+          <img src="autumnsubmenu.jpeg" alt="Autumn" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Autumn</div>
+          </div>
+        </div>
+        <div class="subMenuImage">
+        <a href="../coming/comingsoon.html">
+          <img src="wintersubmenu.jpeg" alt="Winter" class="image"></a>
+          <div class="menuMiddle">
+            <div class="description">Winter</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <img src="crochets.jpg" alt="Crochets" style="width:100%;">
+  <div class="text-block">
+    <h1>Crochets</h1>
+  </div>
+</div>
+
+<p>Choose your favorite color</p>
+<input type="color" id="colorInputColor">
+<input type="button" id="colorButton" value="Click to Change Color" onclick="changeColor()">
+
+<div class="collection">
+  <div class="row">
+    <div class="gallery">
+        <img src="Mini Crochet.jpg" alt="Mini Crochet">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Mini Crochet</center>
+    </div>
+    <div class="gallery">
+        <img src="Baby Yoda.jpg" alt="Baby Yoda">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Baby Yoda</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Blanket.jpg" alt="Crochet Blanket">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Blanket</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Panier.jpg" alt="Crochet Panier">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Panier</center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="gallery">
+        <img src="Crochet top.jpg" alt="Crochet top">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet top</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Whale.jpg" alt="Crochet Whale">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Whale</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Heart.jpg" alt="Crochet Heart">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Heart</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Bunny.jpg" alt="Crochet Bunny">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Bunny</center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="gallery">
+        <img src="Crochet Bag.jpg" alt="Crochet Bag">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Bag</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Donuts.jpg" alt="Crochet Donuts">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Donuts</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Yarn.jpg" alt="Crochet Yarn">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Yarn</center>
+    </div>
+    <div class="gallery">
+        <img src="Crochet Pochette.jpg" alt="Crochet Pochette">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <br><center>Crochet Pochette</center>
+    </div>
+  </div>
+</div>
+
+<!--footer starts from here-->
+<footer class="footer">
+<div class="container bottom_border">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+<!--headin5_amrc-->
+<p class="mb10">Take the challenge and be aesthetic with Camelia says Camelia!</p>
+<p><i class="phone"></i> Phone: +91-9999599456  </p>
+<p><i class="envelope"></i> Email address: camelia_says_camelia@gmail.com  </p>
+</div>
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+    <li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/jewelry.html">Jewelry</a></li>
+    <li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/homeware.html">Homeware</a></li>
+    <li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/lookbook.html">Lookbook</a></li>
+
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"></a><p>Follow our Instagram page <a href="#">https://www.instagram.com/camelia_says_camelia/</a></p></li>
+<li><a href="#"></a><p>Follow our Youtube channel <a href="#">https://www.youtube.com/channel/UC5kVr5mKv1DtLXDwEpx86ew</a></p></li>
+</ul>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/Camelia%20says%20Camelia.html">Home</a></li>
+<li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/about.html">About</a></li>
+<li><a href="https://www.youtube.com/channel/UC5kVr5mKv1DtLXDwEpx86ew">Blog</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Designed by Catalina and Minjoo <a href="#">Camelia says Camelia</a></p>
+
+<ul class="social_footer_ul">
+<li><a href="https://www.youtube.com/channel/UC5kVr5mKv1DtLXDwEpx86ew" class="fa fa-youtube"></a></li>
+<li><a href="https://www.instagram.com/camelia_says_camelia/" class="fa fa-instagram"></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+</body>
+</html>
