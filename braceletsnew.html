@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bracelets.css">
+    <link rel="stylesheet" href="styles/mainstyle.css">
+    <link rel="stylesheet" href="styles/buttonstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="bracelets.js" defer></script>
+    <title> Bracelets </title>
+</head>
+
+<body>
+	
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<nav>
+<a class="links" href="#">Camelia says Camelia</a>
+<div class="dropdown">
+  <button class="megaButton">Jewelry</button>
+  <div class="megaContent">
+    <div class="megaHeader">
+    <img src="jewelry menu.jpeg" alt="Luxurious blue jewelry" style="width:100%;">
+    <div class="centered">Explore all our collections</div>
+    </div>
+    <div class="megaRow">
+      <div class="subMenuImage">
+        <img src="braceletsubmenu.jpeg" alt="rose gold bracelet" class="image">
+        <div class="menuMiddle">
+          <div class="description">Bracelets</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="necklacesubmenu.jpeg" alt="swarovski necklace" class="image">
+        <div class="menuMiddle">
+          <div class="description">Necklaces</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="ringsubmenu.jpeg" alt="swarovski ring" class="image">
+        <div class="menuMiddle">
+          <div class="description">Rings</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="megaButton">Homeware</button>
+  <div class="megaContent">
+    <div class="megaHeader">
+    <img src="homeware menu.jpeg" alt="Primark homeware picks for SS18" style="width:100%;">
+    <div class="centered">Explore all our collections</div>
+    </div>
+    <div class="megaRow">
+      <div class="subMenuImage">
+        <img src="candlesubmenu.jpeg" alt="Candle" class="image">
+        <div class="menuMiddle">
+          <div class="description">Candles</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="claytraysubmenu.jpeg" alt="Clay tray" class="image">
+        <div class="menuMiddle">
+          <div class="description">Clay trays</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="crochetsubmenu.jpeg" alt="Crochet" class="image">
+        <div class="menuMiddle">
+          <div class="description">Crochets</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="megaButton">Lookbook</button>
+  <div class="megaContent">
+    <div class="megaHeader">
+    <img src="lookbook menu.jpeg" alt="Fashion lookbook" style="width:100%;">
+    <div class="centered">Explore all our collections</div>
+    </div>
+    <div class="megaRow">
+      <div class="subMenuImage">
+        <img src="springsubmenu.jpg" alt="Spring" class="image">
+        <div class="menuMiddle">
+          <div class="description">Spring</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="summersubmenu.jpeg" alt="Summer" class="image">
+        <div class="menuMiddle">
+          <div class="description">Summer</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="autumnsubmenu.jpeg" alt="Autumn" class="image">
+        <div class="menuMiddle">
+          <div class="description">Autumn</div>
+        </div>
+      </div>
+      <div class="subMenuImage">
+        <img src="wintersubmenu.jpeg" alt="Winter" class="image">
+        <div class="menuMiddle">
+          <div class="description">Winter</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+<div class="container">
+  <img src="bracelets.jpg" alt="Bracelets" style="width:100%;">
+  <div class="text-block">
+    <h1>Bracelets</h1>
+  </div>
+</div>
+
+<div class="collection">
+  <div class="row">
+    <div class="gallery">
+        <img id="row0img0" src="Boho Surfer Bracelet.jpg" alt="Boho Surfer Bracelet">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 0, 0)">&#10094;</a>
+        <a class="next" onclick="shift(1, 0, 0)">&#10095;</a>
+        <br><center>Boho Surfer Bracelet</center>
+    </div>
+    <div class="gallery">
+        <img id="row0img1" src="Bracelet elastique a breloques.jpg" alt="Bracelet elastique a breloques">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 0, 1)">&#10094;</a>
+        <a class="next" onclick="shift(1, 0, 1)">&#10095;</a>
+        <br><center>Bracelet elastique a breloques</center>
+    </div>
+    <div class="gallery">
+        <img id="row0img2" src="Bracelet elastique avec cristaux.jpg" alt="Bracelet elastique avec cristaux">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 0, 2)">&#10094;</a>
+        <a class="next" onclick="shift(1, 0, 2)">&#10095;</a>
+        <br><center>Bracelet elastique avec cristaux</center>
+    </div>
+    <div class="gallery">
+        <img id="row0img3" src="Bracelet en acier love.jpg" alt="Bracelet en acier love">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 0, 3)">&#10094;</a>
+        <a class="next" onclick="shift(1, 0, 3)">&#10095;</a>
+        <br><center>Bracelet en acier love</center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="gallery">
+        <img id="row1img0" src="Bracelet reglable argente.jpg" alt="Bracelet reglable argente">
+
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 1, 0)">&#10094;</a>
+        <a class="next" onclick="shift(1, 1, 0)">&#10095;</a>
+        <br><center>Bracelet reglable argente</center>
+    </div>
+    <div class="gallery">
+        <img id="row1img1" src="Bracelet reglable avec perles fantaisie.jpg" alt="Bracelet reglable avec perles fantaisie">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 1, 1)">&#10094;</a>
+        <a class="next" onclick="shift(1, 1, 1)">&#10095;</a>
+        <br><center>Bracelet reglable avec perles fantaisie</center>
+    </div>
+    <div class="gallery">
+        <img id="row1img2" src="Bracelet Reglable Coquillage.jpg" alt="Bracelet Reglable Coquillage">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 1, 2)">&#10094;</a>
+        <a class="next" onclick="shift(1, 1, 2)">&#10095;</a>
+        <br><center>Bracelet Reglable Coquillage</center>
+    </div>
+    <div class="gallery">
+        <img id="row1img3" src="Bracelet Reglable en acier arbre de la vie.jpg" alt="Bracelet Reglable en acier arbre de la vie">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 1, 3)">&#10094;</a>
+        <a class="next" onclick="shift(1, 1, 3)">&#10095;</a>
+        <br><center>Bracelet Reglable en acier arbre de la vie</center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="gallery">
+        <img id="row2img0" src="Bracelet reglable en acier coeurs.jpg" alt="Bracelet reglable en acier coeurs">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 2, 0)">&#10094;</a>
+        <a class="next" onclick="shift(1, 2, 0)">&#10095;</a>
+        <br><center>Bracelet reglable en acier coeurs</center>
+    </div>
+    <div class="gallery">
+        <img id="row2img1" src="Bracelet shell.jpg" alt="Bracelet shell">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 2, 1)">&#10094;</a>
+        <a class="next" onclick="shift(1, 2, 1)">&#10095;</a>
+        <br><center>Bracelet shell</center>
+    </div>
+    <div class="gallery">
+        <img id="row2img2" src="Lot de bracelets elastiques avec coquillage.jpg" alt="Lot de bracelets elastiques avec coquillage">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 2, 2)">&#10094;</a>
+        <a class="next" onclick="shift(1, 2, 2)">&#10095;</a>
+        <br><center>Lot de bracelets elastiques avec coquillage</center>
+    </div>
+    <div class="gallery">
+        <img id="row2img3" src="Set de bracelets elastiques avec pierres.jpg" alt="Set de bracelets elastiques avec pierres">
+        <div class="middle">
+            <div class="addCart">Add to shopping cart</div>
+        </div>
+        <a class="prev" onclick="shift(-1, 2, 3)">&#10094;</a>
+        <a class="next" onclick="shift(1, 2, 3)">&#10095;</a>
+        <br><center>Set de bracelets elastiques avec pierres</center>
+    </div>
+  </div>
+</div>
+
+<!--footer starts from here-->
+<footer class="footer">
+<div class="container bottom_border">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+<!--headin5_amrc-->
+<p class="mb10">Take the challenge and be aesthetic with Camelia says Camelia!</p>
+<p><i class="phone"></i> Phone: +91-9999599456  </p>
+<p><i class="envelope"></i> Email address: camelia_says_camelia@gmail.com  </p>
+</div>
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+    <li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/jewelry.html">Jewelry</a></li>
+    <li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/homeware.html">Homeware</a></li>
+    <li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/lookbook.html">Lookbook</a></li>
+
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"></a><p>Follow our Instagram page <a href="#">https://www.instagram.com/camelia_says_camelia/</a></p></li>
+<li><a href="#"></a><p>Follow our Youtube channel <a href="#">https://www.youtube.com/channel/UC5kVr5mKv1DtLXDwEpx86ew</a></p></li>
+</ul>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/Camelia%20says%20Camelia.html">Home</a></li>
+<li><a href="file:///D:/Catalina%20Negoita/Desktop/Camelia%20says%20Camelia/about.html">About</a></li>
+<li><a href="https://www.youtube.com/channel/UC5kVr5mKv1DtLXDwEpx86ew">Blog</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Designed by Catalina and Minjoo <a href="#">Camelia says Camelia</a></p>
+
+<ul class="social_footer_ul">
+<li><a href="https://www.youtube.com/channel/UC5kVr5mKv1DtLXDwEpx86ew" class="fa fa-youtube"></a></li>
+<li><a href="https://www.instagram.com/camelia_says_camelia/" class="fa fa-instagram"></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+</body>
+</html>
